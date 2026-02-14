@@ -18,6 +18,18 @@ const CONFIG = {
 		bears: ["🧸", "🐻"], // Cute bear emojis
 	},
 
+	floatingImages: {
+		max: 10,
+		images: [
+			"assets/snoopy_1.png",
+			"assets/snoopy_2.png",
+			"assets/snoopy_3.gif",
+			"assets/snoopy_3.gif",
+			"assets/snoopy_3.gif",
+			"assets/ghibli_1.png",
+		],
+	},
+
 	// Questions and answers
 	// Customize each question and its possible responses
 	questions: {
