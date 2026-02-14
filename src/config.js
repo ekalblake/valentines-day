@@ -20,14 +20,7 @@ const CONFIG = {
 
 	floatingImages: {
 		max: 10,
-		images: [
-			"assets/snoopy_1.png",
-			"assets/snoopy_2.png",
-			"assets/snoopy_3.gif",
-			"assets/snoopy_3.gif",
-			"assets/snoopy_3.gif",
-			"assets/ghibli_1.png",
-		],
+		images: [],
 	},
 
 	// Questions and answers
