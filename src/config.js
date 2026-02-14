@@ -21,12 +21,12 @@ const CONFIG = {
 	floatingImages: {
 		max: 10,
 		images: [
-			"src/assets/snoopy_1.png",
-			"src/assets/snoopy_2.png",
-			"src/assets/snoopy_3.gif",
-			"src/assets/snoopy_3.gif",
-			"src/assets/snoopy_3.gif",
-			"src/assets/ghibli_1.png",
+			"/assets/snoopy_1.png",
+			"/assets/snoopy_2.png",
+			"/assets/snoopy_3.gif",
+			"/assets/snoopy_3.gif",
+			"/assets/snoopy_3.gif",
+			"/assets/ghibli_1.png",
 		],
 	},
 
@@ -90,7 +90,7 @@ const CONFIG = {
 	music: {
 		enabled: true, // Music feature is enabled
 		autoplay: true, // Try to autoplay (note: some browsers may block this)
-		musicUrl: "src/assets/music.mp3", // Music streaming URL
+		musicUrl: "/assets/music.mp3", // Music streaming URL
 		startText: "🎵 Play Music", // Button text to start music
 		stopText: "🔇 Stop Music", // Button text to stop music
 		volume: 0.5, // Volume level (0.0 to 1.0)

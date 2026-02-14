@@ -115,7 +115,7 @@ function createFloatingElements() {
 	shuffled.forEach((imgSrc) => {
 		const img = document.createElement("img");
 		img.className = "floating-image";
-		img.src = imgSrc;
+		img.src = `${import.meta.env.BASE_URL}${imgSrc}`;
 		setRandomPosition(img);
 		container.appendChild(img);
 	});
