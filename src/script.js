@@ -253,3 +253,7 @@ function setupMusicPlayer() {
 		}
 	});
 }
+
+window.moveButton = moveButton;
+window.showNextQuestion = showNextQuestion;
+window.celebrate = celebrate;

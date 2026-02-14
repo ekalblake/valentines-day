@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- CUSTOMIZE: Browser tab title -->
   <title>¿Quieres ser mi San Valentin? 💝</title>
   <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
-    rel="stylesheet">
+    rel="stylesheet" />
   <!-- Styles -->
-  <link rel="stylesheet" href="src/style.css">
+  <link rel="stylesheet" href="/src/style.css" />
 </head>
 
 <body>
@@ -28,7 +28,7 @@
     <div id="musicControls" class="music-controls">
       <button id="musicToggle" class="music-btn">🎵 Play Music</button>
       <audio id="bgMusic" loop>
-        <source id="musicSource" type="audio/mpeg">
+        <source id="musicSource" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
     </div>
@@ -49,7 +49,7 @@
       <h2 id="question2Text"></h2>
       <!-- Love meter settings: min="0" max="10000" -->
       <div class="love-meter">
-        <input type="range" min="0" max="10000" value="100" class="slider" id="loveMeter">
+        <input type="range" min="0" max="10000" value="100" class="slider" id="loveMeter" />
         <p>
           <span class="love-value-container"><span id="startText"></span> (<span id="loveValue">100</span>%)</span>
           <span id="extraLove" class="hidden"></span>
@@ -74,9 +74,9 @@
   </div>
 
   <!-- Scripts -->
-  <script type="module" src="src/config.js"></script>
-  <script type="module" src="src/theme.js"></script>
-  <script type="module" src="src/script.js"></script>
+  <script type="module" src="/src/config.js"></script>
+  <script type="module" src="/src/theme.js"></script>
+  <script type="module" src="/src/script.js"></script>
 </body>
 
 </html>

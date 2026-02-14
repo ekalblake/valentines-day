@@ -61,7 +61,7 @@ const CONFIG = {
 
 	// Messages that appear after they say "Yes!"
 	celebration: {
-		title: "Soy la persona más feliz del mundo! 🎉💝💖💝💓",
+		title: "Soy la persona más feliz del mundo por tenerte! 🎉💝💖💝💓, Eres alguien tan importante para mi, espero sepas eso, no quiero estar sin ti , espero tambien sepas eso, tal vez no pueda darte algo material pero dedique tiempo en esto y espero puedas valorarlo, te adoro demasiado",
 		message: "AHORA ME DEBES UNOS BESOTES Y ABRAZOTES CUANDO NOS VEAMOS 😘🤗💞",
 		emojis: "🎁💖🤗💝💋❤️💕", // These will bounce around
 	},
