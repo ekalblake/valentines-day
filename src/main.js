@@ -107,6 +107,18 @@ function createFloatingElements() {
 		setRandomPosition(div);
 		container.appendChild(div);
 	});
+
+	const shuffled = [...config.floatingImages.images]
+		.sort(() => 0.5 - Math.random())
+		.slice(0, config.floatingImages.max);
+
+	shuffled.forEach((imgSrc) => {
+		const img = document.createElement("img");
+		img.className = "floating-image";
+		img.src = `${import.meta.env.BASE_URL}${imgSrc}`;
+		setRandomPosition(img);
+		container.appendChild(img);
+	});
 }
 
 // Set random position for floating elements
@@ -140,6 +152,7 @@ function setInitialPosition() {
 	loveMeter.value = 100;
 	loveValue.textContent = 100;
 	loveMeter.style.width = "100%";
+	document.querySelectorAll(".js-float").forEach((el) => setRandomPosition(el));
 }
 
 loveMeter.addEventListener("input", () => {
