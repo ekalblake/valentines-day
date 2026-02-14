@@ -1,3 +1,5 @@
+import "./config.js";
+import "./theme.js";
 // Initialize configuration
 const config = window.VALENTINE_CONFIG;
 
